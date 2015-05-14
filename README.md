@@ -1,0 +1,2 @@
+# kataPotter
+sesión de formación
