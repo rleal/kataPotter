@@ -10,4 +10,10 @@ class KataPotterTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals(8, (new Library())->pay($cart));
     }
 
+    public function test_WhenBuyTwoBooksEquals_Then16() {
+        $cart = new Cart();
+        $cart->add(1, 2);
+        $this->assertEquals(16, (new Library())->pay($cart));
+    }
+
 }
