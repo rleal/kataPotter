@@ -1,5 +1,5 @@
 <?php
-
+namespace rleal\KataPotter;
 
 class Cart {
     protected $content = array();

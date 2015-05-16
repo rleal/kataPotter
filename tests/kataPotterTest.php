@@ -1,10 +1,12 @@
 <?php
+namespace rleal\KataPotter\tests;
 
-require_once "src/Library.php";
+use rleal\KataPotter\Cart;
+use rleal\KataPotter\Library;
 
-class KataPotterTest extends PHPUnit_Framework_TestCase {
+class KataPotterTest extends \PHPUnit_Framework_TestCase {
 
-    public function test_WhenBuyOneBook_Then8() {
+    public function test_WhenBuyOneBphpuniook_Then8() {
         $cart = new Cart();
         $cart->add(1, 1);
         $this->assertEquals(8, (new Library())->pay($cart));

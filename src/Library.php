@@ -1,6 +1,7 @@
 <?php
+namespace rleal\KataPotter;
 
-require_once 'src/Cart.php';
+use rleal\KataPotter\Cart;
 
 class Library {
     public function pay(Cart $cart){
